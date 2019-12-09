@@ -12,7 +12,7 @@ namespace SimpleAPI.TEST
         public void GetReturnsMyName()
         {
             var returnValue = controller.Get(1);
-            Assert.Equal("Changrui Yu", returnValue.Value);
+            Assert.Equal("Max Power", returnValue.Value);
         }
 
 
